@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: print all possible dofferent
+ * Description: print all possible different
  *	     combinations of two digits.
  *
  * Return: Always 0 (success)
@@ -25,7 +25,7 @@ int main(void)
 
 				if (digit1 + digit2 != 17)
 				{
-					putchar(',');
+					putchar(', ');
 					putchar(' ');
 				}
 			}
